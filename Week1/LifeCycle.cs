@@ -1,17 +1,15 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class LifeCycle : MonoBehaviour
-{       
+public class lifecycle : MonoBehaviour
+{
     void Awake()
     {
-        Debug.Log("플레이어 데이터가 준비되었습니다.");
+        Debug.Log("Player's data is ready.");
     }
 
     void Start()
     {
-        Debug.Log("사냥 장비를 챙겼습니다.");
+        Debug.Log("I got my hunting gear.");
     }
 
 
@@ -21,7 +19,15 @@ public class LifeCycle : MonoBehaviour
 
     void FixedUpdate()
     {
-        Debug.Log("이동~");
+        Debug.Log("Moving~");
     }
 
+    void Update()
+    {
+        Debug.Log("Monster Hunting!");
+    }
 }
+
+
+// Bug 해결! 
+// 앞에 두 줄 삭제하고, 물체에 적용하기
