@@ -9,21 +9,21 @@ public class NewBehaviourScript : MonoBehaviour
     {
         Debug.Log("Hello Unity!");
 
-        // 1. º¯¼ö
+        // 1. ë³€ìˆ˜
 
         int level = 5;
         float strength = 15.5f;
-        string playerName = "ºê·ÎÄİ¸®";
+        string playerName = "ë¸Œë¡œì½œë¦¬";
         bool isFullLevel = false;
 
         /*
-        Debug.Log("¿ë»çÀÇ ÀÌ¸§Àº?");
+        Debug.Log("ìš©ì‚¬ì˜ ì´ë¦„ì€?");
         Debug.Log(playerName);
-        Debug.Log("¿ë»çÀÇ ·¹º§Àº?");
+        Debug.Log("ìš©ì‚¬ì˜ ë ˆë²¨ì€?");
         Debug.Log(level);
-        Debug.Log("¿ë»çÀÇ ÈûÀº?");
+        Debug.Log("ìš©ì‚¬ì˜ í˜ì€?");
         Debug.Log(strength);
-        Debug.Log("¿ë»ç´Â ¸¸·¾ÀÎ°¡?");
+        Debug.Log("ìš©ì‚¬ëŠ” ë§Œë ™ì¸ê°€?");
         Debug.Log(isFullLevel);
         */
 
